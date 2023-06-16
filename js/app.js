@@ -1,18 +1,17 @@
 window.addEventListener("load", function () {
 
-  $('.hambur').click(function() {
+  $('.hambur').click(function () {
     $('.mn-dsktop, .close-nav').show();
     $('.hambur').hide();
-    $('.mn-dsktop').css({'transform':'translateX(0)'});
-  });
-  
-  $('.close-nav').click(function() {
-    $('.mn-dsktop, .close-nav').hide();
-    $('.hambur').show();
-    $('.mn-dsktop').css({'transform':'translateX(100%)'});
+    $('.mn-dsktop').css({ 'transform': 'translateX(0)' });
   });
 
-  
+  $('.close-nav').click(function () {
+    $('.mn-dsktop, .close-nav').hide();
+    $('.hambur').show();
+    $('.mn-dsktop').css({ 'transform': 'translateX(100%)' });
+  });
+
   $.getJSON("js/lang.json", function (json) {
     $('.translate').click(function () {
       $('.flag').removeClass('selected');
@@ -26,12 +25,9 @@ window.addEventListener("load", function () {
       });
     });
 
-    // Set English as default language
     $('#en').click();
   });
 
-
-  // CAJAS DE PROYECTOS 
   const renderProject = project => {
     return `
     <div class="box-p" data-aos="${project.dataAos}">
@@ -119,7 +115,7 @@ window.addEventListener("load", function () {
       title: '',
       diamondLink: 'https://splendid-baklava-0c90d9.netlify.app/',
       githubLink: 'https://github.com/leandroMz/ChallengeResponsiveFullPage',
-      technologies: ['HTML', 'CSS', 'JS','Bootstrap', 'Netlify'],
+      technologies: ['HTML', 'CSS', 'JS', 'Bootstrap', 'Netlify'],
       descriptionKey: 'text20',
       description: ''
     }
@@ -139,8 +135,6 @@ window.addEventListener("load", function () {
     let emailForm = document.querySelector("input.form-email")
     let messageForm = document.querySelector("textarea.form-message")
     let acc = 0;
-    //valido por campo
-    //NOMBRE          
     if (nameForm.value == "") {
       errores.push('<i id="errorPush" class="material-icons">error_outline<a class="errores-push lang" key="text112">Name: (please fill in this field)</a></i>')
       nameForm.setAttribute("style", "border-color: red;")
@@ -158,7 +152,6 @@ window.addEventListener("load", function () {
       nameForm.setAttribute("style", "border-color:green;")
       acc += 1
     }
-    //EMAIL
     if (emailForm.value == "") {
       errores.push('<i id="errorPush" class="material-icons">error_outline<a class="errores-push lang" key="text116">Email: (please fill in this field)</a></i>')
       emailForm.setAttribute("style", "border-color: red;")
@@ -173,7 +166,6 @@ window.addEventListener("load", function () {
       emailForm.setAttribute("style", "border-color: green;")
       acc += 1
     }
-    //MENSAJE
     if (messageForm.value == "") {
       errores.push('<i id="errorPush" class="material-icons">error_outline<a class="errores-push lang" key="text119">Message: (please fill in this field)</a></i>')
       messageForm.setAttribute("style", "border-color: red;")
@@ -183,10 +175,7 @@ window.addEventListener("load", function () {
       messageForm.setAttribute("style", "border-color: green;")
       acc += 1
     }
-    // }
-    //borro primero los errores sssssssssssssssssssssssssssssssssss
     borrarErrores()
-    // si existe errores los muestro, sino: envio y muestro el SweetAlert
     if (acc < 3) {
       e.preventDefault()
       let ulErrores = document.querySelector("div.errores ul")
@@ -218,5 +207,3 @@ function validar_email(email) {
 function soloLetras(str) {
   return (reg.test(str)) ? true : false;
 }
-
-
