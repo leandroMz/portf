@@ -1,7 +1,4 @@
 @import 'animation.css';
-@import 'graphics.css';
-@import '/css/mobile.css';
-@import 'desktop.css';
 @import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&family=Comic+Neue&family=Kalam&family=Luckiest+Guy&family=Schoolbell&display=swap');
 
 :root {
@@ -455,4 +452,127 @@ div.errores {
 
 .copyright {
     color: #253237;
+}
+
+@media (max-width: 800px) {
+    header,
+    .start-image,
+    .logotype,
+    .liNavMenu,
+    .github-cinta {
+        display: none;
+    }
+
+    .logo {
+        width: 50%;
+    }
+
+    .message {
+        padding: 0;
+        height: 28rem;
+        width: 100%;
+    }
+
+    .initial-text,
+    .subtitle {
+        text-align: center;
+    }
+
+    .content,
+    .resumeDownload,
+    .space-titles {
+        justify-content: center;
+    }
+
+    .name {
+        font-size: 5rem;
+    }
+
+    .start-subtitle {
+        position: relative;
+        top: 8rem;
+    }
+
+    .titles-nav {
+        font-size: 1.7rem;
+    }
+
+    .box-p,
+    .email-footer {
+        width: 100%;
+    }
+
+    .footer-items {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .redes-footer {
+        margin: 3rem 0;
+    }
+
+    .copyright {
+        text-align: center;
+    }
+
+    .img-project img {
+        position: relative;
+        top: 2rem;
+        width: 99%;
+        height: 80%;
+    }
+}
+
+@media (min-width: 800px) {
+    .hambur,
+    .close-nav {
+        display: none;
+    }
+
+    .logotype {
+        padding: 1.4rem 0rem;
+        width: 10em;
+        height: 10em;
+    }
+
+    .logo {
+        width: 100%;
+    }
+
+    .message {
+        padding: 3rem 1.5rem 2rem 0rem;
+        height: 30rem;
+        width: 50%;
+    }
+
+    .initial-text,
+    .subtitle {
+        text-align: right;
+    }
+
+    .resumeDownload {
+        left: 2rem;
+        justify-content: flex-end;
+    }
+
+    .space-titles {
+        justify-content: space-between;
+    }
+
+    .titles-nav {
+        font-size: 3.5rem;
+    }
+
+    .box-p {
+        width: 40%;
+    }
+
+    .footer-items {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .email-footer {
+        width: 50%;
+    }
 }

@@ -1,16 +1,9 @@
 @media (max-width: 800px) {
-
-
-
-    header {
-        display: none;
-    }
-
-    .start-image {
-        display: none;
-    }
-
-    .logotype {
+    header,
+    .start-image,
+    .logotype,
+    .liNavMenu,
+    .github-cinta {
         display: none;
     }
 
@@ -18,21 +11,20 @@
         width: 50%;
     }
 
-
-
-
-    /* FRASE INICIO */
     .message {
         padding: 0;
         height: 28rem;
         width: 100%;
     }
 
-    .initial-text {
+    .initial-text,
+    .subtitle {
         text-align: center;
     }
 
-    .content {
+    .content,
+    .resumeDownload,
+    .space-titles {
         justify-content: center;
     }
 
@@ -43,42 +35,20 @@
     .start-subtitle {
         position: relative;
         top: 8rem;
-
-    }
-
-    .subtitle {
-        text-align: center;
-        /* padding: 0 4rem; */
-    }
-
-    .resumeDownload {
-        justify-content: center;
-    }
-
-    .space-titles {
-        justify-content: center;
     }
 
     .titles-nav {
-
         font-size: 1.7rem;
     }
 
-    .github-cinta {
-        display: none;
-    }
-
-    .box-p {
+    .box-p,
+    .email-footer {
         width: 100%;
     }
 
     .footer-items {
         flex-direction: column-reverse;
         align-items: center;
-    }
-
-    .email-footer {
-        width: 100%;
     }
 
     .redes-footer {
@@ -89,11 +59,10 @@
         text-align: center;
     }
 
-    .img-project img{
+    .img-project img {
         position: relative;
         top: 2rem;
         width: 99%;
         height: 80%;
     }
-
 }
