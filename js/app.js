@@ -49,7 +49,7 @@ window.addEventListener("load", function () {
       </div>
       <div class="description-projects">
         <ul>
-          ${project.technologies.map(tech => `<li>${tech}</li>`).join('')}
+          ${project.technologies.map(tech => `<li class="techLyst">${tech}</li>`).join('')}
         </ul>
         <p class="parr-projects lang" key="${project.descriptionKey}">${project.description}</p>
       </div>
@@ -65,7 +65,7 @@ window.addEventListener("load", function () {
       title: '',
       diamondLink: 'http://www.jechcapital.com',
       githubLink: 'https://github.com/leandroMz?tab=repositories',
-      technologies: ['HTML', 'CSS', 'JS', 'API', 'Form', 'librarys', 'Netlify'],
+      technologies: ['Html/Css/Js', 'API', 'Form', 'librarys'],
       descriptionKey: 'text10',
       description: ''
     },
@@ -76,7 +76,7 @@ window.addEventListener("load", function () {
       title: '',
       diamondLink: 'http://www.ecomerce-coder.netlify.app',
       githubLink: 'https://github.com/leandroMz/PreEntrega1Martinez',
-      technologies: ['REACT', 'JS', 'Firebase dataBase', 'Firebase Auth', 'CSS', 'Netlify'],
+      technologies: ['REACT', 'Firebase', 'Auth', 'Html/Css/Js'],
       descriptionKey: 'text12',
       description: ''
     },
@@ -87,7 +87,7 @@ window.addEventListener("load", function () {
       title: '',
       diamondLink: 'https://clinicadental-dh.netlify.app/',
       githubLink: 'https://github.com/leandroMz/ClinicaDental_MartinezLeandro',
-      technologies: ['JAVA', 'Spring', 'SQL', 'H2 Database', 'Security', 'Html/Css/Js'],
+      technologies: ['JAVA', 'Spring', 'SQL', 'Login', 'Html/Css/Js'],
       descriptionKey: 'text14',
       description: ''
     },
@@ -98,7 +98,7 @@ window.addEventListener("load", function () {
       title: '',
       diamondLink: 'https://hthydsawqerew.netlify.app',
       githubLink: 'https://github.com/leandroMz/Fogop-Web23',
-      technologies: ['HTML', 'CSS', 'JS', 'API', 'JSON', 'librarys', 'Netlify'],
+      technologies: ['Html/Css/Js', 'API', 'librarys', 'Netlify'],
       descriptionKey: 'text16',
       description: ''
     },

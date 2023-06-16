@@ -1,7 +1,9 @@
 @media (max-width: 800px) {
 
+
+
     header {
-        align-items: center;
+        display: none;
     }
 
     .start-image {
@@ -9,50 +11,15 @@
     }
 
     .logotype {
-        padding: 2rem 0rem;
-        width: 12rem;
+        display: none;
     }
 
     .logo {
-        width: 100%;
-    }
-
-    .mn-dsktop {
-        display: none;
-        position: fixed;
-        top: 0;
-        right: 0;
-        bottom: 0;
         width: 50%;
-        background-color: var(--background);
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-        transition: all 2s ease-in-out;
-        transform: translateX(100%);
-        z-index: 999;
     }
 
-    .desktop-menu {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        height: 100%;
-        padding: 20px;
-    }
 
-    .close-nav {
-        position: absolute;
-        top: 20px;
-        left: 20px;
-        font-size: 30px;
-        cursor: pointer;
-    }
 
-    .hambur {
-        display: block;
-        color: var(--paragraph);
-        margin-bottom: 1.3rem;
-
-    }
 
     /* FRASE INICIO */
     .message {
@@ -122,8 +89,11 @@
         text-align: center;
     }
 
+    .img-project img{
+        position: relative;
+        top: 2rem;
+        width: 99%;
+        height: 80%;
+    }
 
-    
-   
-   
 }
