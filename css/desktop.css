@@ -1,0 +1,64 @@
+@media (min-width: 800px) {
+
+
+    /* DISPLAY NONE */
+    .hambur,
+    .close-nav {
+        display: none;
+    }
+
+    .logotype {
+        padding: 1.4rem 0rem;
+        width: 10em;
+        height: 10em;
+    }
+
+    .logo {
+        width: 100%;
+    }
+
+    /* FRASES INICIO */
+    .message {
+        padding: 3rem 1.5rem 2rem 0rem;
+        height: 30rem;
+        width: 50%;
+    }
+
+    .initial-text {
+        text-align: right;
+
+    }
+
+    .subtitle {
+        text-align: right;
+    }
+
+    .resumeDownload {
+        left: 2rem;
+
+        justify-content: flex-end;
+    }
+
+    .space-titles {
+        justify-content: space-between;
+    }
+
+    .titles-nav {
+
+        font-size: 3.5rem;
+    }
+
+    .box-p {
+        width: 40%;
+    }
+
+    .footer-items {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .email-footer {
+        width: 50%;
+    }
+
+}

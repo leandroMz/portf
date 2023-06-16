@@ -1,0 +1,455 @@
+@import 'animation.css';
+@import 'graphics.css';
+@import '/css/mobile.css';
+@import 'desktop.css';
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&family=Comic+Neue&family=Kalam&family=Luckiest+Guy&family=Schoolbell&display=swap');
+
+:root {
+    --botton-nav: #e44d26;
+    --botton-nav-active: #c24020;
+    --socialMedia: #F3603B;
+    --background: #253237;
+    --text: #eeebe8;
+    --paragraph: #c7c4c1;
+    --text02: #0e0d0d;
+    --gray-2: #807c78;
+    --boxBack: rgb(32, 41, 45)
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-align: left;
+    font-family: 'Comic Neue', cursive;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: var(--text02);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 1) 20%, rgba(32, 41, 45, 1) 30%, rgba(32, 41, 45, 1) 45%, rgba(37, 50, 55, 1) 65%, rgba(23, 29, 32, 1) 85%, rgba(0, 0, 0, 1) 100%);
+    padding: 0rem 3rem;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.desktop-menu a {
+    font-family: 'Schoolbell', cursive;
+    background-color: transparent;
+    border-radius: 0.4rem;
+    display: inline-block;
+    padding: 0.2rem 1rem;
+    color: var(--text);
+    font-size: 1.2rem;
+    box-shadow: 3px 3px 8px rgba(29, 28, 28, .5);
+}
+
+.nav-animation:hover a {
+    background: var(--botton-nav-active);
+    color: var(--text02);
+    transition: 1.5s;
+    box-shadow: inset 3px 5px 9px -1px rgb(70, 16, 7);
+}
+
+.desktop-menu {
+    padding: 2rem 0rem;
+    gap: 0.8rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-idioma {
+    margin-left: 1rem;
+
+}
+
+#en {
+    margin-left: 1rem;
+}
+
+.start {
+    display: flex;
+    padding: 2rem 0rem 0rem;
+    justify-content: space-between;
+}
+
+.start-image {
+    width: 90%;
+    position: absolute;
+    top: 15rem;
+}
+
+.initial-text {
+    font-family: 'Kalam', cursive;
+    font-size: 2rem;
+    color: var(--paragraph);
+    text-shadow: 2px 3px 8px #a39e9a;
+}
+
+.start-subtitle {
+    position: relative;
+    bottom: -10rem;
+}
+
+.subtitle {
+    font-family: 'Cabin Sketch', cursive;
+    font-weight: 400;
+    font-size: 2rem;
+    color: var(--socialMedia);
+    text-shadow: 0 0 5px #6a6a85;
+}
+
+.resumeDownload {
+    position: relative;
+    bottom: -10rem;
+    display: flex;
+    align-items: flex-end;
+    padding: 2rem;
+    color: #0e0d0d;
+}
+
+.button-s {
+    background-color: var(--botton-nav);
+    box-shadow: 2px 2px 5px var(--text02);
+    color: var(--text02);
+    font-family: 'Schoolbell', cursive;
+    font-size: large;
+    font-weight: 500;
+    border-radius: 0.6rem;
+    padding: 0.2rem 0.5rem;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+    border: none;
+}
+
+.button-s:hover {
+    transform: translateY(.2px);
+    box-shadow: inset 3px 5px 9px -1px rgb(70, 16, 7);
+}
+
+.button-s:active {
+    background-color: var(--botton-nav-active);
+    box-shadow: inset 3px 5px 9px -1px rgb(25, 5, 2);
+    color: var(--paragraph);
+}
+
+.space-titles {
+    padding: 1rem 0rem;
+    display: flex;
+}
+
+.titles-nav {
+    font-family: 'Cabin Sketch', cursive;
+    font-weight: 400;
+    color: var(--paragraph);
+    text-shadow: 0 0 5px #6a6a85;
+}
+
+.general {
+    padding-bottom: 2rem;
+    border-radius: 0.6rem;
+}
+
+#proyectos-box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.box-p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem 0 0;
+    background: var(--boxBack);
+    box-shadow: 1px 6px 50px var(--text02);
+    color: var(--paragraph);
+    border-radius: 0.6rem;
+}
+
+footer {
+    padding: 6rem 0 0;
+}
+
+footer p {
+    color: var(--paragraph);
+    padding: 2rem 0rem 0.5rem 0rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-items {
+    display: flex;
+}
+
+.redes-footer {
+    width: 35%;
+}
+
+.text-footer a {
+    width: 15%;
+    font-family: 'Schoolbell', cursive;
+    font-size: 1.4rem;
+    color: var(--gray-2);
+}
+
+.list-ff a {
+    color: var(--paragraph);
+}
+
+.list-foot li {
+    padding: 0.4rem;
+}
+
+.list-projects {
+    position: relative;
+    left: 3rem;
+}
+
+.list-studing {
+    position: relative;
+    left: 6rem;
+}
+
+.list-foot a:hover {
+    color: var(--botton-nav);
+}
+
+.idioma {
+    margin: 1rem 0rem 0rem 6rem;
+}
+
+.order-redes1,
+.order-redes2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    right: -2.2rem;
+}
+
+.order-redes1 {
+    padding: 0.25rem 0rem;
+    left: 2rem;
+}
+
+.order-redes2 {
+    padding: 0.25rem 0rem;
+    right: 2.2rem;
+}
+
+.order-redes1 a,
+.order-redes2 a {
+    padding: 1rem;
+}
+
+.iconRedesFoot {
+    color: var(--botton-nav);
+    font-size: 3rem;
+}
+
+.iconRedesFoot:hover {
+    color: var(--botton-nav-active);
+    text-shadow: 0 0 10px #ff3c00;
+}
+
+.form-start {
+    padding: 0.25rem 0rem 0rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-text {
+    padding: 0.25rem 0rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input,
+textarea {
+    border-radius: 0.4rem;
+    background-color: var(--background);
+    color: var(--text);
+    padding: 0.3rem;
+    border: none;
+}
+
+.form-name {
+    position: relative;
+    width: 35%;
+}
+
+.form-email {
+    position: relative;
+    width: 65%;
+    margin-left: 0.2rem;
+}
+
+.form-message {
+    position: relative;
+    width: 100%;
+}
+
+::placeholder {
+    opacity: 0.7;
+    color: var(--gray-2);
+    font-family: 'Kalam', cursive;
+    font-size: 1rem;
+}
+
+.flag {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    border: none;
+    border-radius: .2rem;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.flag img {
+    width: 100%;
+    height: 100%;
+    filter: grayscale(100%);
+    transition: filter 0.3s ease;
+    box-shadow: 3px 3px 8px rgba(29, 28, 28, .5);
+}
+
+#en.flag.selected img {
+    filter: grayscale(0%);
+}
+
+#es.flag.selected img {
+    filter: grayscale(0%);
+}
+
+.verificar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.form-send {
+    display: flex;
+    justify-content: right;
+}
+
+div.errores {
+    padding: 0rem 1rem;
+}
+
+#errorPush {
+    display: flex;
+    align-items: center;
+    position: relative;
+    right: 1rem;
+    padding: 0.2rem;
+    font-size: 20px;
+    color: red;
+}
+
+.material-icons {
+    display: flex;
+    align-items: center;
+    position: relative;
+    right: 1rem;
+    padding: 0.2rem;
+    font-size: 20px;
+    color: green;
+}
+
+.errores-push {
+    position: relative;
+    top: 0.1rem;
+    font-family: 'Kalam', cursive;
+    font-size: 0.9em;
+    color: var(--paragraph);
+    padding: 0rem 0.6rem;
+}
+
+.errores i {
+    margin: 0.3rem 0rem;
+    background-color: var(--background);
+    border-radius: 0.4rem;
+}
+
+.iconRedes {
+    color: var(--botton-nav);
+    font-size: 1.5rem;
+}
+
+.iconRedes:hover {
+    color: var(--botton-nav-active);
+    text-shadow: 0 2px 3px black;
+}
+
+.img-project {
+    width: 94%;
+    height: 50vh;
+    margin: 1rem 1rem 0;
+    border-radius: 0.6rem;
+    box-shadow: 1px 6px 50px var(--text02);
+}
+
+.img-pjct {
+    margin: 0.1rem;
+    height: 100%;
+    width: 100%;
+}
+
+.title-projects {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 2rem 0 1rem;
+}
+
+.title-projects h2 {
+    padding: 0rem 1rem 0rem;
+}
+
+.title-projects a {
+    padding: 0rem 0.4rem;
+}
+
+.description-projects ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 1rem 2rem;
+}
+
+.description-projects li {
+    font-family: 'Schoolbell', cursive;
+    border-radius: 0.6rem;
+    padding: 0.2rem 0.8rem;
+    box-shadow: 1px 2px 4px var(--text02);
+}
+
+.parr-projects {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 2rem;
+}
+
+.copyright {
+    color: #253237;
+}

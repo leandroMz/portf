@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="https://kit.fontawesome.com/e108fbf003.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Leandro Martinez</title>
+</head>
+
+<body>
+
+    <header id="header">
+        <div class="logotype">
+            <img class="logo" src="./images/dsa.gif" alt="This will display an animated GIF" />
+        </div>
+        <nav class="mn-dsktop">
+            <ul class="desktop-menu">
+                <li class="nav-animation"><a href="#projects" class="lang" key="text1"></a></li>
+                <li class="nav-animation"><a href="#contact" class="lang" key="text2"></a></li>
+                <li class="nav-idioma">
+                    <button class="translate flag" id="es"><img class="flag-scale" src="./images/argentina-svgrepo-com.svg"
+                            alt="Spanish"></button>
+                    <button class="translate flag" id="en"><img class="flag-scale" src="./images/united-states-svgrepo-com.svg"
+                            alt="English"></button>
+                </li>
+            </ul>
+            <button class="close-nav">X</button>
+        </nav>
+        <div class="hambur">
+            <i class="fa-solid fa-bars fa-2x"></i>
+        </div>
+
+    </header>
+
+    <main>
+        <div class="start">
+            <div class="message">
+                <h4 class="initial-text lang" key="text5"></h4>
+                <div class="content">
+                    <h1 class="name">LEANDRO</h1>
+                    <h1 class="name">LEANDRO</h1>
+                </div>
+                <div class="start-subtitle">
+                    <h2 class="subtitle lang" key="text6"></h2>
+                </div>
+                <div class="resumeDownload">
+                    <a href="./images/LeandroMartinez-CV.pdf" rel="noopener" download="CV Leandro"
+                        class="button-s lang" key="text7"></a>
+                </div>
+            </div>
+            <div class="start-image">
+                <div class="wrapper">
+                    <div class="contenedor-cubo">
+                        <div class="cubo-image-dos">
+                            <div class="front-image-cubo">
+                                <img class="img-link" src="./images/qr.svg" alt="">
+                            </div>
+                            <div class="right-image-cubo">
+                                <img class="img-link" src="./images/qr.svg" alt="">
+                            </div>
+                            <div class="back-image-cubo">
+                                <img class="img-link" src="./images/qr.svg" alt="">
+                            </div>
+                            <div class="left-image-cubo">
+                                <img class="img-link" src="./images/qr.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="space-titles" data-aos="fade-down">
+            <h2 class="titles-nav lang" id="projects" key="text8" data-aos="flip-down"></h2>
+            <div class="github-cinta">
+                <a href="https://github.com/leandroMz" target="_blank">
+                    <i class="fa-brands fa-github red-nav iconRedesFoot"></i>
+                </a>
+            </div>
+        </div>
+        <!-- PROYECTOS -->
+        <div class="general">
+            <div id="proyectos-box"></div>
+        </div>
+    </main>
+
+    <!-- FOOTER ------------------  -->
+    <footer id="contact">
+        <div class="footer-items">
+            <div class="text-footer" data-aos="flip-left">
+                <ul class="list-foot">
+                    <div class="list-ff">
+                        <li class="list-home"><a href="#header" class="lang" key="text105"></a></li>
+                        <li class="list-projects"><a href="#projects" class="lang" key="text106"></a></li>
+                        <li class="idioma">
+                            <button class="translate flag" id="es"><img class="flag-scale" src="./images/argentina-svgrepo-com.svg"
+                                    alt="Spanish"></button>
+                            <button class="translate flag" id="en"><img class="flag-scale" src="./images/united-states-svgrepo-com.svg"
+                                    alt="English"></button>
+                        </li>
+                    </div>
+                    <li class="list-about"><a href="#about-me" class="lang" key="text107"></a></li>
+                </ul>
+            </div>
+            <div class="redes-footer" data-aos="flip-down">
+                <div class="order-redes1">
+                    <a href="https://twitter.com/leoomz_" target="_blank">
+                        <i class="fa-brands fa-twitter iconRedesFoot"></i>
+                    </a>
+                    <a href="https://github.com/leandroMz" target="_blank">
+                        <i class="fa-brands fa-github iconRedesFoot"></i>
+                    </a>
+                </div>
+                <div class="order-redes2">
+                    <a href="https://www.linkedin.com/in/leandromz/" target="_blank">
+                        <i class="fa-brands fa-linkedin-in iconRedesFoot"></i>
+                    </a>
+                    <a href="https://instagram.com/leomz2" target="_blank">
+                        <i class="fa-brands fa-instagram iconRedesFoot"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="email-footer">
+                <div class="get-touch" data-aos="flip-right">
+                    <form action="https://formsubmit.co/leandev7@gmail.com" method="POST"
+                        onsubmit="return submitForm(this);" class="reservation">
+                        <div class="form-start">
+                            <label for="Name"></label>
+                            <input class="form-name" type="text" name="name" class="lang" key="text108"
+                                placeholder="Enter your name">
+                            <label for="email"></label>
+                            <input class="form-email" type="email" name="email" id="email" class="lang" key="text109"
+                                placeholder="Please enter a valid email address">
+                        </div>
+                        <div class="form-text">
+                            <label for="Text"></label>
+                            <textarea class="form-message" name="message" cols="20" rows="5" class="lang" key="text110"
+                                placeholder="Enter your message..."></textarea>
+                        </div>
+                        <div class="verificar">
+                            <div class="errores">
+                                <ul id="parent"></ul>
+                            </div>
+                            <div class="form-send">
+                                <button id="button-sub" type="submit" class="button-s lang" key="text111"></button>
+                            </div>
+                        </div>
+                        <input type="hidden" name="_next" value="http://127.0.0.1:5501">
+                        <input type="hidden" name="_captcha" value="false"></input>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <p class="copyright lang" key="text121"></p>
+    </footer>
+    <!-- <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>     -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true
+        });
+    </script>
+</body>
+
+</html>
