@@ -83,7 +83,7 @@ window.addEventListener("load", function () {
       title: '',
       diamondLink: 'https://clinicadental-dh.netlify.app/',
       githubLink: 'https://github.com/leandroMz/ClinicaDental_MartinezLeandro',
-      technologies: ['JAVA', 'Spring', 'SQL', 'Login', 'Html/Css/Js'],
+      technologies: ['JAVA', 'Spring', 'SQL', 'Html/Css/Js'],
       descriptionKey: 'text14',
       description: ''
     },
@@ -115,7 +115,7 @@ window.addEventListener("load", function () {
       title: '',
       diamondLink: 'https://splendid-baklava-0c90d9.netlify.app/',
       githubLink: 'https://github.com/leandroMz/ChallengeResponsiveFullPage',
-      technologies: ['HTML', 'CSS', 'JS', 'Bootstrap', 'Netlify'],
+      technologies: ['Html/Css/Js', 'Bootstrap', 'Netlify'],
       descriptionKey: 'text20',
       description: ''
     }

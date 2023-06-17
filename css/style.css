@@ -514,20 +514,18 @@ div.errores {
         text-align: center;
     }
 
-    .img-project img {
-        position: relative;
-        top: 2rem;
+    .img-project{
+        
         width: 99%;
-        height: 80%;
+        height: 70%;
+    }
+    .img-project img {
+        width: 99%;
     }
 }
 
 @media (min-width: 800px) {
-    .hambur,
-    .close-nav {
-        display: none;
-    }
-
+    
     .logotype {
         padding: 1.4rem 0rem;
         width: 10em;
