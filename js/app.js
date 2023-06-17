@@ -41,7 +41,12 @@ window.addEventListener("load", function () {
         </a>
         <a href="${project.githubLink}" target="_blank">
           <i class="fa-brands fa-github iconRedes"></i>
-        </a>
+        </a>        
+      </div>
+      <div>
+      <h4>
+      ${project.responsive}
+      </h4>
       </div>
       <div class="description-projects">
         <ul>
@@ -61,6 +66,7 @@ window.addEventListener("load", function () {
       title: '',
       diamondLink: 'http://www.jechcapital.com',
       githubLink: 'https://github.com/leandroMz?tab=repositories',
+      responsive: 'Responsive ✔ - Mobile&Desktop',
       technologies: ['Html/Css/Js', 'API', 'Form', 'librarys'],
       descriptionKey: 'text10',
       description: ''
@@ -71,7 +77,8 @@ window.addEventListener("load", function () {
       titleKey: 'text11',
       title: '',
       diamondLink: 'https://ecomerce-coder.netlify.app/',
-      githubLink: 'https://github.com/leandroMz/PreEntrega1Martinez',
+      githubLink: 'https://github.com/leandroMz/PreEntrega1Martinez',      
+      responsive: 'Responsive - Only Desktop',
       technologies: ['REACT', 'Firebase', 'Html/Css/Js'],
       descriptionKey: 'text12',
       description: ''
@@ -82,7 +89,8 @@ window.addEventListener("load", function () {
       titleKey: 'text13',
       title: '',
       diamondLink: 'https://clinicadental-dh.netlify.app/',
-      githubLink: 'https://github.com/leandroMz/ClinicaDental_MartinezLeandro',
+      githubLink: 'https://github.com/leandroMz/ClinicaDental_MartinezLeandro',      
+      responsive: 'Responsive - Only Desktop',
       technologies: ['JAVA', 'Spring', 'SQL', 'Html/Css/Js'],
       descriptionKey: 'text14',
       description: ''
@@ -93,7 +101,8 @@ window.addEventListener("load", function () {
       titleKey: 'text15',
       title: '',
       diamondLink: 'https://hthydsawqerew.netlify.app',
-      githubLink: 'https://github.com/leandroMz/Fogop-Web23',
+      githubLink: 'https://github.com/leandroMz/Fogop-Web23',      
+      responsive: 'Responsive ✔ - Mobile&Desktop',
       technologies: ['Html/Css/Js', 'librarys', 'Netlify'],
       descriptionKey: 'text16',
       description: ''
@@ -104,7 +113,8 @@ window.addEventListener("load", function () {
       titleKey: 'text17',
       title: '',
       diamondLink: 'https://lovely-boba-001561.netlify.app',
-      githubLink: 'https://github.com/leandroMz/RockPaperOrScissors',
+      githubLink: 'https://github.com/leandroMz/RockPaperOrScissors',      
+      responsive: 'Responsive ✔ - Mobile&Desktop',
       technologies: ['HTML', 'CSS', 'JS', 'Netlify'],
       descriptionKey: 'text18',
       description: ''
@@ -114,7 +124,8 @@ window.addEventListener("load", function () {
       titleKey: 'text19',
       title: '',
       diamondLink: 'https://splendid-baklava-0c90d9.netlify.app/',
-      githubLink: 'https://github.com/leandroMz/ChallengeResponsiveFullPage',
+      githubLink: 'https://github.com/leandroMz/ChallengeResponsiveFullPage',      
+      responsive: 'Responsive ✔ - Mobile&Desktop',
       technologies: ['Html/Css/Js', 'Bootstrap', 'Netlify'],
       descriptionKey: 'text20',
       description: ''

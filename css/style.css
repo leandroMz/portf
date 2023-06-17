@@ -532,6 +532,9 @@ div.errores {
 
 @media (min-width: 800px) {
 
+    body{        
+    margin: 0 5rem;
+    }
     .logotype {
         padding: 1.4rem 0rem;
         width: 10em;
