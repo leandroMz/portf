@@ -70,7 +70,7 @@ window.addEventListener("load", function () {
       imgSrc: './images/4.png',
       titleKey: 'text11',
       title: '',
-      diamondLink: 'http://www.ecomerce-coder.netlify.app',
+      diamondLink: 'https://ecomerce-coder.netlify.app/',
       githubLink: 'https://github.com/leandroMz/PreEntrega1Martinez',
       technologies: ['REACT', 'Firebase', 'Html/Css/Js'],
       descriptionKey: 'text12',
