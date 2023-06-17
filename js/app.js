@@ -72,7 +72,7 @@ window.addEventListener("load", function () {
       title: '',
       diamondLink: 'http://www.ecomerce-coder.netlify.app',
       githubLink: 'https://github.com/leandroMz/PreEntrega1Martinez',
-      technologies: ['REACT', 'Firebase', 'Auth', 'Html/Css/Js'],
+      technologies: ['REACT', 'Firebase', 'Html/Css/Js'],
       descriptionKey: 'text12',
       description: ''
     },
@@ -94,7 +94,7 @@ window.addEventListener("load", function () {
       title: '',
       diamondLink: 'https://hthydsawqerew.netlify.app',
       githubLink: 'https://github.com/leandroMz/Fogop-Web23',
-      technologies: ['Html/Css/Js', 'API', 'librarys', 'Netlify'],
+      technologies: ['Html/Css/Js', 'librarys', 'Netlify'],
       descriptionKey: 'text16',
       description: ''
     },
