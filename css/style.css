@@ -456,7 +456,8 @@ div.errores {
     .start-image,
     .logotype,
     .liNavMenu,
-    .github-cinta {
+    .github-cinta,
+    .mobileAppResp {
         display: none;
     }
 

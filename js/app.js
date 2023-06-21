@@ -30,7 +30,7 @@ window.addEventListener("load", function () {
 
   const renderProject = project => {
     return `
-    <div class="box-p" data-aos="${project.dataAos}">
+    <div class="box-p ${project.title} " data-aos="${project.dataAos}">
       <div class="img-project">
         <img class="img-pjct" src="${project.imgSrc}">
       </div>
@@ -75,7 +75,7 @@ window.addEventListener("load", function () {
       dataAos: "fade-left",
       imgSrc: './images/4.png',
       titleKey: 'text11',
-      title: '',
+      title: 'mobileAppResp',
       diamondLink: 'https://ecomerce-coder.netlify.app/',
       githubLink: 'https://github.com/leandroMz/PreEntrega1Martinez',      
       responsive: 'Responsive - Only Desktop',
@@ -87,7 +87,7 @@ window.addEventListener("load", function () {
       dataAos: "fade-right",
       imgSrc: './images/6.png',
       titleKey: 'text13',
-      title: '',
+      title: 'mobileAppResp',
       diamondLink: 'https://clinicadental-dh.netlify.app/',
       githubLink: 'https://github.com/leandroMz/ClinicaDental_MartinezLeandro',      
       responsive: 'Responsive - Only Desktop',
