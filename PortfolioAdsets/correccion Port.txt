@@ -1,0 +1,31 @@
+En portfolio hacer uso de Plantillas de texto
+Agregar eventos
+"on"
+
+"addEventListener"
+"evento de click"
+donde se hizo clic agregar parametro con letra "e".. para saber donde se ejecuta el evento o que tecla se apreto
+
+
+adentro de la funcion 
+this
+preventDefoult => evitasr que al hacer click nos dirija o que un form evite el enviio
+
+
+el evento de carga
+window.onload = dunction (){
+de esta forma solo solamente puedo obtener un evento
+}
+ o puedo hacerlo de la siguiente forma
+window.addEventListener("load", fuinction(){
+de esta forma no se pisa,m se agrega encima. podemos tener muchas reacciones a un evento
+}
+
+EJEMPOLO
+window.addEventListener("load", fuinction(){
+let homeButton = document.querySelector("la classe")
+homebutton.addEventListener("click", function(){
+ejemplo
+alert("tocaste el botton perro")
+})
+}
